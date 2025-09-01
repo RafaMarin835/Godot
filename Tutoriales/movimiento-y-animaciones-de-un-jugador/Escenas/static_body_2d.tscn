@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://b13uouh33yq7d"]
+
+[ext_resource type="Texture2D" uid="uid://c623xxsna40lf" path="res://Assets/Tierra.png" id="1_6hw2n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5rho0"]
+size = Vector2(302, 12)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(6.33333, 0.291667)
+texture = ExtResource("1_6hw2n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_5rho0")
+one_way_collision = true

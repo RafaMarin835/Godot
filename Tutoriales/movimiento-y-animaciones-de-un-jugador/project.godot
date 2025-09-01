@@ -10,9 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Movimiento y animaciones de un jugador"
-run/main_scene="uid://c13qog0tsu0a"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/name="movimiento y animaciones de un jugador"
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [input]

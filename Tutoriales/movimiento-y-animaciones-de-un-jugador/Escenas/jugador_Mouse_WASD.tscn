@@ -1,90 +1,90 @@
-[gd_scene load_steps=25 format=3 uid="uid://b2l2w6vnjn1io"]
+[gd_scene load_steps=25 format=3 uid="uid://deppeww0r4bs8"]
 
-[ext_resource type="Script" uid="uid://ct8nqaep1hymg" path="res://Scripts/jugador_mouse.gd" id="1_sikbv"]
-[ext_resource type="Texture2D" uid="uid://71ey68jrmnte" path="res://Assets/SpriteSheet Pj1.png" id="2_7ojjr"]
+[ext_resource type="Script" uid="uid://dkutief5vsylp" path="res://Scripts/jugador_mouse_wasd.gd" id="1_tivy1"]
+[ext_resource type="Texture2D" uid="uid://71ey68jrmnte" path="res://Assets/SpriteSheet Pj1.png" id="2_ss0m0"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e003d"]
 radius = 9.0
 height = 28.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dia7i"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(0, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u2224"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(32, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_guibx"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(64, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wujsp"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(96, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_muc0o"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fhfxi"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(32, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_spqkp"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(64, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e2nxn"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(96, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w85ti"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(0, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5uitk"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(32, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s01ac"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(64, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h2uqs"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(96, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6wfi1"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gjkob"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cybpj"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w8sfu"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o8wca"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(96, 128, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gjkv2"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(64, 128, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x8o6c"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(32, 128, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x6j5w"]
-atlas = ExtResource("2_7ojjr")
+atlas = ExtResource("2_ss0m0")
 region = Rect2(0, 128, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_tcavl"]
@@ -176,7 +176,7 @@ animations = [{
 }]
 
 [node name="jugador_Mouse" type="CharacterBody2D"]
-script = ExtResource("1_sikbv")
+script = ExtResource("1_tivy1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2)

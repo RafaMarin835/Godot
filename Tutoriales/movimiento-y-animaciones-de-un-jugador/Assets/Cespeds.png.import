@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b42wwc783ok8q"
-path="res://.godot/imported/SpriteSheet Pj1.png-f5bd5a14259a1971721f21f62b5998f3.ctex"
+uid="uid://ndgmwidg5n7y"
+path="res://.godot/imported/Cespeds.png-674321657d861ffaffc0ab2a6900242e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Jugador/SpriteSheet Pj1.png"
-dest_files=["res://.godot/imported/SpriteSheet Pj1.png-f5bd5a14259a1971721f21f62b5998f3.ctex"]
+source_file="res://Assets/Cespeds.png"
+dest_files=["res://.godot/imported/Cespeds.png-674321657d861ffaffc0ab2a6900242e.ctex"]
 
 [params]
 
